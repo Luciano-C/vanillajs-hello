@@ -1,1 +1,50 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30%;
+}
+
+.imagen {
+    height: 50%;
+    width: 50%;
+    margin-left: 2%;
+}
+
+
+
+img {
+   height: 700px;
+   width: 700px;
+   object-fit: contain;
+   object-position: 100% 120%;
+   
+}
+
+button {
+    background: linear-gradient(90deg,rgba(192, 192, 192, 0.733), #808b96, #566573);
+    height: 100%;
+    width: 80%;
+    font-size: 180%;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 0 #000;
+    padding:  0 0 1% 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.generator {
+    border: black 2px solid;
+    width: 45%;
+    height: 60%;
+    padding: 2%;
+    margin-left: 2%;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 25px;
+}
